@@ -35,13 +35,6 @@
     "description": "ASP Net MVC - фреймворк для создания веб-приложений по шаблону MVC"
   },
   {
-    "name": "Python",
-    "ring": "adopt",
-    "quadrant": "Languages and Frameworks",
-    "isNew": "FALSE",
-    "description": "Язык программирования Python"
-  },
-  {
     "name": "netframework472",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
@@ -133,76 +126,6 @@
     "description": "Сторонний .Net-клиент для TelegramAPI"
   },
   {
-    "name": "Redis",
-    "ring": "adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "In-memory NoSql database"
-  },
-  {
-    "name": "MSSQL",
-    "ring": "adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Microsoft SQL Server"
-  },
-  {
-    "name": "SingleStore",
-    "ring": "trial",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Realtime database (MemSql)"
-  },
-  {
-    "name": "PostgreSQL",
-    "ring": "trial",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "PostgreSQL"
-  },
-  {
-    "name": "Lucene",
-    "ring": "hold",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Apache Lucene search engine"
-  },
-  {
-    "name": "ElasticSearch",
-    "ring": "adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Поисковый система на базе движка Lucene"
-  },
-  {
-    "name": "MinIO",
-    "ring": "trial",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "S3-своместимое объектное хранилище"
-  },
-  {
-    "name": "Cassandra",
-    "ring": "assess",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Распределённая колоночная СУБД от Apache"
-  },
-  {
-    "name": "ClickHouse",
-    "ring": "adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Колоночная аналитическая СУБД с открытым кодом (изначально - Яндекс)"
-  },
-  {
-    "name": "Yandex Object Storage",
-    "ring": "trial",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "S3-своместимое облачное объектное хранилище от Яндекс"
-  },
-  {
     "name": "Dapper",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
@@ -236,20 +159,6 @@
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
     "description": "Библиотека DAO на базе адаптера EntityFramework для PostgreSQL"
-  },
-  {
-    "name": "RabbitMq",
-    "ring": "adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Брокер сообщений на основе стандарта AMQP"
-  },
-  {
-    "name": "Kafka",
-    "ring": "trial",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Распределённый брокер сообщений от Apache"
   },
   {
     "name": "RabbitLink",
@@ -334,6 +243,55 @@
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
     "description": "Инструментарий для реализации OpenAPI на основе кода API"
+  },
+  {
+    "name": "Python",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Язык программирования Python"
+  },
+  {
+    "name": "Redis",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "In-memory NoSql database"
+  },
+  {
+    "name": "MSSQL",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Microsoft SQL Server"
+  },
+  {
+    "name": "SingleStore",
+    "ring": "trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Realtime database (MemSql)"
+  },
+  {
+    "name": "PostgreSQL",
+    "ring": "trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "PostgreSQL"
+  },
+  {
+    "name": "RabbitMq",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Брокер сообщений на основе стандарта AMQP"
+  },
+  {
+    "name": "Kafka",
+    "ring": "trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Распределённый брокер сообщений от Apache"
   },
   {
     "name": "QuartzNet",
@@ -434,6 +392,27 @@
     "description": "Система управления и разработки для MSSQL сервера"
   },
   {
+    "name": "YouTrack",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Система управления проектами и багтрекинга от JetBrains"
+  },
+  {
+    "name": "TeamCity",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Инструмент непрерывной интеграции и развёртывания (CI/CD) от JetBrains"
+  },
+  {
+    "name": "AzureDevopsServer",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Сервер (платформа) Microsoft для совместной разработки"
+  },
+  {
     "name": "TFVS",
     "ring": "adopt",
     "quadrant": "Tools",
@@ -455,25 +434,46 @@
     "description": "Инструментарий для разработки и администрирования БД"
   },
   {
-    "name": "YouTrack",
-    "ring": "adopt",
+    "name": "Lucene",
+    "ring": "hold",
     "quadrant": "Tools",
     "isNew": "FALSE",
-    "description": "Система управления проектами и багтрекинга от JetBrains"
+    "description": "Apache Lucene search engine"
   },
   {
-    "name": "TeamCity",
+    "name": "ElasticSearch",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "FALSE",
-    "description": "Инструмент непрерывной интеграции и развёртывания (CI/CD) от JetBrains"
+    "description": "Поисковый система на базе движка Lucene"
   },
   {
-    "name": "AzureDevopsServer",
+    "name": "MinIO",
+    "ring": "trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "S3-своместимое объектное хранилище"
+  },
+  {
+    "name": "Cassandra",
+    "ring": "assess",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Распределённая колоночная СУБД от Apache"
+  },
+  {
+    "name": "ClickHouse",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "FALSE",
-    "description": "Сервер (платформа) Microsoft для совместной разработки"
+    "description": "Колоночная аналитическая СУБД с открытым кодом (изначально - Яндекс)"
+  },
+  {
+    "name": "Yandex Object Storage",
+    "ring": "trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "S3-своместимое облачное объектное хранилище от Яндекс"
   },
   {
     "name": "Grafana",
